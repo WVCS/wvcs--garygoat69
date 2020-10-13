@@ -2,7 +2,12 @@
 <html> 
   
   <body>
-   
+   <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#games">Games</a></li>
+  <li><a href="#Apps">Apps</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
     <hl> Gary's Website</h1> 
   
 	  <img src="GaryHe'sArtifact.png" alt = "Gary He's Artifact"> </center> 
@@ -11,13 +16,35 @@
   </body>
   
 <style>
- 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #6CD4FF;
+  background-color: #FFA3AF;
+}
 
+li {
+  float: left;
+}
 
-  
-  
-  
-  
-  </style>
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #DC0073;
+}
+</style>
   
 </html>
