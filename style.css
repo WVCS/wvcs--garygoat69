@@ -1,1 +1,37 @@
+<style>
+	.center {
+  text-align: center;
+  border: 3px pink; 
+	}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #6CD4FF;
+  background-color: #FFA3AF;
+	
+}
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #DC0073;
+}
+	
+</style>
